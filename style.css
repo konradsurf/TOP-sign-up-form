@@ -73,7 +73,10 @@ img {
 #form {
   border: darkolivegreen 3px solid;
   flex: 1 1 auto;
+  display: flex;
 }
+
+
 
 #submit {
   border: darkmagenta 3px solid;
