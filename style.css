@@ -1,6 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-div {
-  color: pink;
+* {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+#page-container {
+  border: black 3px dashed;
+  display: flex;
+  flex-direction: row;
+}
+
+#image {
+  border: blue 3px solid;
+  height: 50rem;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#above-logo {
+  border: maroon 3px solid;
+  flex: 1 1 auto;
+}
+
+#logo {
+  border: green 3px solid;
+  flex: 1 1 auto;
+}
+
+#below-logo {
+  border: darkslategrey 3px solid;
+  flex: 1 1 auto;
+}
+
+#content {
+  border: sienna 3px solid;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#cta {
+  border: darkkhaki 3px solid;
+  flex: 1 1 auto;
+
+}
+
+#form {
+  border: darkolivegreen 3px solid;
+  flex: 2 1 auto;
+}
+
+#submit {
+  border: darkmagenta 3px solid;
+  flex: 1 1 auto;
+
 }

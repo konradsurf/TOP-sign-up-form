@@ -1,1 +1,1 @@
-document.querySelector('div').textContent = "hello js";
+// document.querySelector('div').textContent = "hello js";
