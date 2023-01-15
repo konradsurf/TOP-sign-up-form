@@ -7,35 +7,41 @@
 #page-container {
   border: black 3px dashed;
   display: flex;
-  flex-direction: row;
+  height: 90vh;
 }
 
-#image {
+#surfing {
   border: blue 3px solid;
-  height: 50rem;
   flex: 1 1 auto;
+  /* background-image: url("ryan-loughlin-HXqpJnLyHzg-unsplash.jpg");
+  background-size: cover; */
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 #above-logo {
   border: maroon 3px solid;
-  flex: 1 1 auto;
+  flex: 3 1 400px;
+  /* height: 400px; */
+  
 }
 
 #logo {
   border: green 3px solid;
-  flex: 1 1 auto;
+  flex: 1 1 200px;
+  opacity: 0.5;
+  /* height: 200px; */
 }
 
 #below-logo {
   border: darkslategrey 3px solid;
-  flex: 1 1 auto;
+  flex: 1 1 200px;
+  /* height: 300px; */
 }
 
 #content {
   border: sienna 3px solid;
-  flex: 1 1 auto;
+  flex: 2 1 auto;
   display: flex;
   flex-direction: column;
 }
@@ -48,7 +54,7 @@
 
 #form {
   border: darkolivegreen 3px solid;
-  flex: 2 1 auto;
+  flex: 1 1 auto;
 }
 
 #submit {
@@ -56,3 +62,4 @@
   flex: 1 1 auto;
 
 }
+

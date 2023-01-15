@@ -28,3 +28,7 @@ Step 3: Some Tips!
 [ ] Do not worry about making your project look nice on mobile, but DO resize your browser a little bit to make sure that it’s not completely broken at different desktop resolutions.
 
 [ ] Checking that the password fields match each other requires javascript. Try to implement this if you feel confident, otherwise just validate each field separately.
+
+
+Still Need/check on:
+[ ] Now that divs resize with viewport, may need to limit this to ensure all content fits when viewport sized too small.
