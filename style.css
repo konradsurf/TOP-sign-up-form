@@ -15,6 +15,7 @@
   flex: 1 1 auto;
   background-image: url("ryan-loughlin-HXqpJnLyHzg-unsplash.jpg");
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column; 
 }
@@ -32,11 +33,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.2rem;
   max-height: 8rem;
+  color: white;
 }
 
 img {
   height: 4rem;  
+}
+
+p {
+  font-size: 2rem;
 }
 
 #below-logo {
