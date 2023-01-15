@@ -42,7 +42,7 @@ img {
   height: 4rem;  
 }
 
-p {
+#odin {
   font-size: 2rem;
 }
 
@@ -61,7 +61,13 @@ p {
 #cta {
   border: darkkhaki 3px solid;
   flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+#cta-text {
+  max-width: 30rem;
 }
 
 #form {
