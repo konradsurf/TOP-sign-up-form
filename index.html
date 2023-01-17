@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-  <title>Sign Up Form</title>
-</head>
-<body>
-  <div id="page-container">
-    <div id="surfing" alt="Surfing">
-      <div id="above-logo"></div>
-      <div id="logo">
-        <img src="odin-logo.png" alt="ODIN Logo">
-        <p id="odin">ODIN</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <div id="page-container">
+      <div id="surfing" alt="Surfing">
+        <div id="above-logo"></div>
+        <div id="logo">
+          <img src="odin-logo.png" alt="ODIN Logo" />
+          <p id="odin">ODIN</p>
+        </div>
+        <div id="below-logo"></div>
       </div>
-      <div id="below-logo"></div>
+      <form id="content">
+        <div id="cta">
+          <p id="cta-text">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started. You know you want to.
+          </p>
+        </div>
+        <div id="form">
+          <label for="first-name"
+            >First Name
+            <input type="text" id="first-name" name="first-name" />
+          </label>
+          <label for="last-name"
+            >Last Name
+            <input type="text" id="last-name" name="last-name" />
+          </label>
+          <label for="email"
+            >e-mail
+            <input type="email" id="email" name="email" />
+          </label>
+          <label for="phone"
+            >Phone Number
+            <input type="tel" id="phone" name="phone" />
+          </label>
+          <label for="password"
+            >Password
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="error"
+            />
+          </label>
+          <label for="confirm-password"
+            >Confirm Password
+            <input
+              type="confirm-password"
+              id="confirm-password"
+              name="confirm-password"
+              class="error"
+            />
+          </label>
+        </div>
+        <div id="submit">
+          <button type="submit">Create Account</button>
+        </div>
+      </form>
     </div>
-    <form id="content">
-      <div id="cta">
-        <p id="cta-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
-          Sign up now to get started.
-          You know you want to.</p>
-      </div>
-      <div id="form">
-        <label for="first-name">First Name
-          <input type="text" id="first-name" name="first-name"/>
-        </label>
-        <label for="last-name">Last Name
-          <input type="text" id="last-name" name="last-name"/>
-        </label>
-        <label for="email">e-mail
-          <input type="email" id="email" name="email">
-        </label>
-        <label for="phone">Phone Number
-          <input type="tel" id="phone" name="phone">
-        </label>
-        <label for="password">Password
-          <input type="password" id="password" name="password">
-        </label>
-        <label for="confirm-password">Confirm Password
-          <input type="confirm-password" id="confirm-password" name="confirm-password">
-        </label>
-      </div>
-      <div id="submit"></div>
-    </form>
-  </div>
-</body>
+  </body>
 </html>

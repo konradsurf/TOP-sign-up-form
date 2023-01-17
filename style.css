@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #page-container {
   border: black 3px dashed;
+  border-radius: 8px;
   display: flex;
   height: 80vh;
   max-width: 1000px;
@@ -23,7 +24,7 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 #above-logo {
@@ -45,7 +46,7 @@
 }
 
 img {
-  height: 4rem;  
+  height: 4rem;
 }
 
 #odin {
@@ -75,6 +76,7 @@ img {
 
 #cta-text {
   max-width: 30rem;
+  font-size: 1.25rem;
 }
 
 #form {
@@ -100,6 +102,19 @@ input {
 #submit {
   border: darkmagenta 3px solid;
   flex: 1 1 auto;
-
+  display: flex;
+  justify-content: flex-start;
+  /* align-content: flex-start; */
 }
 
+button {
+  margin-left: 40px;
+  margin-top: 30px;
+  max-width: 150px;
+  width: 250px;
+  height: 40px;
+  background-color: #e25107;
+  font-size: 1rem;
+  border-radius: 4px;
+  color: white;
+}
