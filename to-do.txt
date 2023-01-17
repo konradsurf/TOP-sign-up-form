@@ -21,16 +21,20 @@ Step 3: Some Tips!
 
 [ ] The color we’ve chosen for the ‘Create Account’ button is similar to tones found in the background image. Specifically, it is #596D48.
 
-[ ] The inputs, by default have a very light border (#E5E7EB), but we’ve included 2 variations. For starters, the password inputs should be given an error class.
+[ ] The inputs, by default have a very light border (#E5E7EB), but we’ve included 2 variations. 
+
+[ ] The password inputs should be given an error class.
 
 [ ] The other variation is the selected input, which should have a blue border and subtle box-shadow. This can be done with the :focus pseudo-class you’ve learned about in an earlier lesson.
 
-[ ] Do not worry about making your project look nice on mobile, but DO resize your browser a little bit to make sure that it’s not completely broken at different desktop resolutions.
+[x] Do not worry about making your project look nice on mobile, but DO resize your browser a little bit to make sure that it’s not completely broken at different desktop resolutions.
 
 [ ] Checking that the password fields match each other requires javascript. Try to implement this if you feel confident, otherwise just validate each field separately.
 
 
 Still Need/check on:
-[ ] Now that divs resize with viewport, may need to limit this to ensure all content fits when viewport sized too small.
+[x] Now that divs resize with viewport, may need to limit this to ensure all content fits when viewport sized too small.
 
-[ ] set a max width for the form
+[x] set a max width for the form
+
+[x] make two columns of inputs collapse into one when viewport width decreased
